@@ -10065,3 +10065,19 @@ body {
     left: 0;
     margin: 0px 15px 15px 15px;
 }
+
+
+@media (max-width: 420px) {
+    .ww-home-page {
+        max-width: 100%;
+        min-height: 0;
+        height: auto;
+    }
+    .img-temp {
+        max-width: 100%;
+        height: auto;
+    }
+    .ww-section {
+        padding: 20px 0;
+    }
+}
